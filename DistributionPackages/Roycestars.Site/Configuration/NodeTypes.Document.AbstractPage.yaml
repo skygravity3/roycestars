@@ -1,0 +1,13 @@
+'Roycestars.Site:Document.AbstractPage':
+  abstract: true
+  superTypes:
+    'Neos.Neos:Document': true
+  childNodes:
+    main:
+      type: 'Neos.Neos:ContentCollection'
+      constraints:
+        nodeTypes:
+          'Roycestars.Site:Constraint.Content.Restricted': false
+  constraints:
+    nodeTypes:
+      'Roycestars.Site:Constraint.Document.Restricted': false

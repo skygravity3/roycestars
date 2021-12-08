@@ -1,0 +1,9 @@
+prototype(Roycestars.Site:Component.Layout.Default) < prototype(Neos.Fusion:Component) {
+    content = ''
+
+    renderer = afx`
+        <Roycestars.Site:Component.Header />
+        {props.content}
+        <Roycestars.Site:Component.Footer />
+    `
+}
